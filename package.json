@@ -1,0 +1,13 @@
+{
+  "name": "render-umleitung",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Leitet die alten Render-Adressen auf die neue Instanz um und meldet dabei den alten Service Worker ab.",
+  "main": "server-weiterleitung.js",
+  "scripts": {
+    "start": "node server-weiterleitung.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
